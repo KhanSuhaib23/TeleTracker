@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin-Home</title>
+</head>
+<body>
+<h2>Welcome Admin</h2>
+<h3>Shows</h3>
+<form name="showsDB" action="php\show.php" method="post">
+	<select name="operations">
+	  	<option value="add">Add</option>
+	  	<option value="remove">Remove</option>
+	  	<option value="update">Update</option>
+	</select>
+	<br>
+	<br>
+	<input type="text" name="title" placeholder="Title"><br><br>
+	<input type="text" name="genre" placeholder="Genre"><br><br>
+	<input type="text" name="rating" placeholder="Rating"><br><br>
+	<input type="text" name="seasons" placeholder="Seasons"><br><br>
+	<input type="submit" value="Submit"><br>
+</form>
+<br>
+<a href="index.html">Log Out</a>
+</body>
+</html>

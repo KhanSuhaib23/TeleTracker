@@ -1,0 +1,47 @@
+create database TeleTrackerDB;
+
+create table shows(
+title varchar(100),
+year char(4),
+imageSource varchar(500),
+overview varchar(2000),
+totalScore float,
+totalReviews float,
+totalLikes int,
+totalDislikes int,
+totalFavourites int,
+totalWatchLaters int,
+primary key(title, year)
+);
+
+create table users(
+name varchar(50),
+username varchar(50) primary key,
+password varchar(50)
+);
+
+create table liked(
+username varchar(50),
+show_title varchar(100),
+show_year char(4)
+);
+
+create table disliked(
+username varchar(50),
+show_title varchar(100),
+show_year char(4)
+);
+
+create table favourited(
+username varchar(50),
+show_title varchar(100),
+show_year char(4)
+);
+
+create table wishlisted(
+username varchar(50),
+show_title varchar(100),
+show_year char(4)
+);
+
+then run the other text file

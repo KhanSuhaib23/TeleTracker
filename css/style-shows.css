@@ -1,0 +1,298 @@
+
+.account-utils
+{
+	text-align: center;
+	top: 12rem;
+	position: absolute;
+	width: 50%;
+	margin-left: 25%;
+	background-color: #f2f7ff;
+	z-index: 2;
+	box-shadow: 2px 2px 5px #dae0ea;
+}
+
+.account-utils > h2
+{
+	font-size: 2.1rem;
+	font-weight: 500;
+	padding-top: 0.6rem;
+	padding-bottom: 1.3rem;
+	float: left;
+	text-align: left;
+	color: #929599;
+}
+
+.account-utils > form > input
+{
+	color: #929599;
+	width: 100%;
+	margin-bottom: 1.5rem;
+	height: 2rem;
+	background-color: #dee0e2;
+	border: 1px solid #ccc;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+}
+
+.account-utils > form > input[type=submit] 
+{
+    background-color: #f28585;
+	border: 1px solid red;
+    color: white;
+    cursor: pointer;
+	height: 2rem;
+	font-size: 1.2rem;
+   
+}
+
+.account-utils > a
+{
+	text-decoration: none;
+	color: #929599;
+	font-size: 1.6rem;
+	margin-top: 0.2rem;
+	float: right;
+}
+
+.padded-container
+{
+	padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+}
+
+.unpadded-container
+{
+	width: 100%;
+}
+
+.content
+{
+	z-index: 1;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 0.4rem;
+	margin-top: 0.1rem;
+}
+
+.logo > h1 > a 
+{
+	text-decoration: none;
+} 
+
+.logo > h1
+{
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.logo-style
+{
+	font-size: 2.55rem;
+	font-weight: 600;
+}
+
+.navbar
+{
+	float: left;
+	margin-left: 25%;
+	margin-top: 0.2rem;
+}
+
+.navbar > ul
+{
+	list-style-type: none;
+}
+
+.navbar > ul > li
+{
+	display: inline-block;
+	padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+	font-size: 1.3rem;
+}
+
+.navbar > ul > li > a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar > ul > li > a:hover
+{
+	text-decoration: none;
+	color: #96CCFF;
+
+}
+
+
+.header-utils
+{
+	float: right;
+	
+	margin-top: 0.2rem;
+}
+
+.header-utils > ul
+{
+	list-style-type: none;
+
+}
+
+.header-utils > ul > li
+{
+	display: inline-block;
+	padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+	font-size: 1.3rem;
+}
+
+.header-utils > ul > li > a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.header-utils > ul > li > a:hover
+{
+	text-decoration: none;
+	color: #96CCFF;
+}
+
+
+@media (max-width: 1700px)
+{
+	.navbar
+	{
+		margin-left: 20%;
+	}
+}
+
+@media (max-width: 1500px)
+{
+	.navbar
+	{
+		margin-left: 15%;
+	}
+}
+
+@media (max-width: 1350px)
+{
+	.navbar
+	{
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 1200px)
+{
+	.navbar
+	{
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 1150px)
+{
+	.navbar
+	{
+		position: absolute;
+		top: 4.5rem;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.navbar > ul > li
+	{
+		
+		padding: 0.5rem 5% 0.5rem 5%;
+		font-size: 1.5rem;
+	}
+
+	.header-utils > ul > li
+	{
+		padding: 0.5rem 1rem 0.5rem 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 830px)
+{
+	.navbar > ul > li
+	{
+		padding: 0.5rem 2% 0.5rem 2%;
+	}
+
+	.header-utils > ul > li
+	{
+		
+		padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+	}
+}
+
+@media (max-width: 630px)
+{
+
+	.logo > h1
+	{
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+	.logo-style
+	{
+		font-size: 2.1rem;
+		font-weight: 600;
+	}
+
+	.navbar > ul > li
+	{
+		font-size: 1.2rem;
+	}
+
+	.header-utils > ul > li
+	{
+		
+		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+		font-size: 1.2rem;
+	}
+
+}
+
+.hero
+{
+
+	background-position: center;
+	background-size: cover;
+	padding-top: 25rem;
+	position: relative;
+	z-index: -1;
+	text-align: center;
+	background-image: url("../res/ShowReel.jpg");
+	height: 100vh;
+}
+
+.show-listing
+{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+.show-box
+{
+	background: #871216;
+	margin-bottom: 1.1rem;
+	width: 30%;
+	margin-left: 2%;
+	box-shadow: 3px 3px 2px #3a0303;
+	display: inline-block;
+
+}
+
+h3
+{
+	color: #ffeaea;
+}
+
+
